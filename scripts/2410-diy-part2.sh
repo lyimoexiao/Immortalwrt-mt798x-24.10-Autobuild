@@ -11,7 +11,7 @@
 #
 
 # Modify login IP
-# sed -i 's/192.168.6.1/192.168.5.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.6.1/10.24.32.1/g' package/base-files/files/bin/config_generate
 
 # Modify default SSID
 # sed -i "s/ImmortalWrt-2.4G/Breakwa11/g" package/mtk/applications/mtwifi-cfg/files/mtwifi.sh
